@@ -7,11 +7,14 @@
 body {
   background-color: #d6e2f0;
   font-family: "Outfit";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .card {
-  width: 20rem;
-  height: 31.063rem;
+  max-width: 20rem;
   background-color: #fff;
   margin-inline: auto;
   margin-top: 9.5rem;
@@ -52,5 +55,4 @@ body {
     width: 16rem;
     height: 28.5rem;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
