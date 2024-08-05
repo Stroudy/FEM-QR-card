@@ -1,2 +1,2 @@
-# FEM QR card
- Front end mentor QR card in SCSS using BEM
+# FEM QR Card
+ Coded with SCSS and BEM

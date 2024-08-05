@@ -1,0 +1,53 @@
+@use "base/reset";
+@use "abstracts/mixins";
+@use "abstracts/_variables";
+
+body {
+  background-color: #d6e2f0;
+  font-family: "Outfit";
+}
+
+.card {
+  width: 20rem;
+  height: 31.063rem;
+  background-color: #fff;
+  margin-inline: auto;
+  margin-top: 9.5rem;
+  border-radius: 22px;
+  padding: variables.$paddin-small;
+
+  &__img {
+    width: 100%;
+    border-radius: 13px;
+  }
+
+  &__title {
+    margin-top: variables.$paddin-small;
+    @include mixins.text-styling(1.375rem, 700, #1f3251, center);
+  }
+
+  &__desc {
+    padding: variables.$paddin-small;
+    @include mixins.text-styling(15px, 400, #7b879d, center);
+  }
+
+  @media only screen and (max-width: 430px) {
+    .card {
+      margin-top: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .card {
+      width: 18rem;
+      height: 29rem;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .card {
+      width: 16rem;
+      height: 28.5rem;
+    }
+  }
+}

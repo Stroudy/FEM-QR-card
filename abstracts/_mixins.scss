@@ -1,0 +1,6 @@
+@mixin text-styling ($f-size, $f-weight, $color, $t-align){
+    font-size: $f-size;
+    font-weight: $f-weight;
+    color: $color;
+    text-align: $t-align;
+  }
