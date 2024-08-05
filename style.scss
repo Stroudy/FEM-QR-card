@@ -8,11 +8,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .card {
-  max-width: 20rem;
+  width: 20rem;
   background-color: #fff;
   margin-inline: auto;
   margin-top: 9.5rem;
